@@ -9,7 +9,7 @@ import retrofit2.http.GET;
 
 public interface MatchesApi {
 
-    @GET("matches.json")
+    @GET("partidas.json")
     Call<List<Match>> getMatches();
 
 }
